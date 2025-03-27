@@ -1,0 +1,32 @@
+TYPE WHO ID TITLE DESCRIPTION DEADLINE TIME POINT
+TASK1 T T101 "Math Homework" "Solve pages 10 to 20" 2025-03-01 15:00 10
+TASK2 P T102 "Clean Room" "Organize toys and books" 2025-03-02 17:00 2025-03-02 18:00 10
+TASK2 T T103 "School Picnic Preparation" "Goksu Park" 2025-03-05 10:00 2025-03-05 12:00 10
+TASK2 T T104 "Science Project" "Build a volcano model"  2025-03-15 14:00 2025-03-20 16:00 15
+TAKS1 P T105 "Finish your reading book" "Read Little Prince" 2025-03-25 21:00 20
+TASK1 T T106 "Complete Math Quiz" "Solve all questions in the quiz" 2025-03-03 10:00 15
+TASK2 P T107 "Organize Study Desk" "Sort books, arrange stationery" 2025-03-06 14:00 2025-03-06 15:00 5
+TASK2 T T108 "Write History Essay" "Write an essay about the Renaissance period" 2025-03-10 08:00 2025-03-10 12:00 20
+TASK1 P T109 "Play Outside" "Spend 1 hour playing outdoors" 2025-03-12 17:00 10
+TASK2 T T110 "Prepare for Science Exam" "Revise chapters 3 and 4" 2025-03-20 09:00 2025-03-20 11:00 20
+TASK2 P T111 "Help with Laundry" "Fold clothes and organize laundry" 2025-03-22 16:00 2025-03-22 18:00 10
+TASK1 T T112 "Art Homework" "Complete painting assignment" 2025-03-23 14:00 15
+TASK2 P T113 "Grocery Shopping" "Buy milk, bread, and eggs" 2025-03-26 13:00 2025-03-26 14:00 5
+TASK2 T T114 "Prepare for Presentation" "Create slides and practice speech" 2025-03-30 10:00 2025-03-30 13:00 25
+TASK1 T T115 "Math Homework" "Solve pages 20 to 30" 2025-04-01 14:00 12
+TASK2 P T116 "Clean Garage" "Organize tools and sweep floor" 2025-04-02 16:00 2025-04-02 18:00 15
+TASK2 T T117 "Prepare for Geography Quiz" "Revise chapters 1 to 4" 2025-04-05 09:00 2025-04-05 11:00 20
+TASK1 P T118 "Watch a Documentary" "Watch a documentary about space" 2025-04-07 19:00 8
+TASK2 T T119 "Prepare Science Experiment" "Gather materials and experiment" 2025-04-10 10:00 2025-04-10 13:00 18
+TASK1 P T120 "Write a Letter" "Write a letter to a friend" 2025-04-12 16:00 10
+TASK2 T T121 "Learn New English Vocabulary" "Learn 20 new words from list" 2025-04-14 08:00 2025-04-14 10:00 10
+TASK2 P T122 "Make Bed" "Make the bed and organize room" 2025-04-16 07:00 2025-04-16 07:30 5
+TASK1 T T123 "Complete Algebra Worksheet" "Solve algebraic equations" 2025-04-18 11:00 15
+TASK2 T T124 "Read a Book" "Read at least 30 pages from your current book" 2025-04-20 14:00 2025-04-20 16:00 10
+TASK1 P T125 "Take a Walk" "Take a 30-minute walk outside" 2025-04-22 17:00 7
+TASK2 T T126 "Prepare for History Exam" "Study the events of World War II" 2025-04-25 09:00 2025-04-25 12:00 25
+TASK2 P T127 "Bake Cookies" "Follow the recipe and bake cookies" 2025-04-27 14:00 2025-04-27 16:00 12
+TASK1 T T128 "Solve Physics Problems" "Solve problems from chapter 2" 2025-04-28 13:00 15
+TASK2 P T129 "Water the Plants" "Water the indoor and outdoor plants" 2025-05-01 09:00 2025-05-01 09:30 5
+TASK2 T T130 "Prepare for Art Presentation" "Complete the Project and rehearse" 2025-05-05 12:00 2025-05-05 14:00 20
+TASK1 P T131 "Read a Story" "Read a short story before bed" 2025-05-07 20:00 10
