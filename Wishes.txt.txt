@@ -1,0 +1,51 @@
+TYPE ID DESCRIPTION DATE
+WISH1 W101 "Lego Set" "Price:150TL, Brand:LEGO"
+WISH2 W102 "Go to the Cinema" "Price:100TL" 2025-03-07 14:00 2025-03-07 16:00
+WISH1 W103 "Bicycle" "Price:300TL, Brand:Sports Bike"
+WISH2 W104 "Visit Amusement Park" "Price:200TL" 2025-03-15 10:00 2025-03-15 18:00
+WISH1 W105 "Action Figure Set" "Price:80TL, Brand:Marvel"
+WISH2 W106 "Ice Skating" "Price:50TL" 2025-03-20 16:00 2025-03-20 18:00
+WISH1 W107 "Electric Train Set" "Price:350TL, Brand:ToyTech"
+WISH2 W108 "Trip to the Zoo" "Price:150TL" 2025-03-25 09:00 2025-03-25 12:00
+WISH1 W109 "Art Supplies" "Price:100TL, includes paints and brushes"
+WISH2 W110 "Picnic in the Park" "Price:50TL" 2025-04-01 12:00 2025-04-01 15:00
+WISH1 W111 "Board Game" "Price:70TL, Brand:Hasbro"
+WISH2 W112 "Outdoor Movie Night" "Price:80TL" 2025-04-10 18:00 2025-04-10 21:00
+WISH1 W113 "Remote Control Car" "Price:120TL, Brand:RC Toys"
+WISH2 W114 "Visit Science Museum" "Price:100TL" 2025-04-14 09:00 2025-04-14 12:00
+WISH1 W115 "Video Game Console" "Price:800TL, Brand:XBox"
+WISH2 W116 "Go to the Aquarium" "Price:150TL" 2025-04-18 10:00 2025-04-18 13:00
+WISH1 W117 "Dollhouse" "Price:250TL, Brand:Barbie"
+WISH2 W118 "Trip to the Beach" "Price:200TL" 2025-04-22 09:00 2025-04-22 18:00
+WISH1 W119 "Robot Kit" "Price:150TL, Brand:LEGO Mindstorms"
+WISH2 W120 "Horse Riding" "Price:150TL" 2025-05-01 10:00 2025-05-01 12:00
+WISH1 W121 "Smartwatch" "Price:500TL, Brand:Apple"
+WISH2 W122 "Go to the Bowling Alley" "Price:80TL" 2025-05-05 14:00 2025-05-05 16:00
+WISH1 W123 "Scooter" "Price:250TL, Brand:Xiaomi"
+WISH2 W124 "Horseback Riding Lesson" "Price:100TL" 2025-05-10 10:00 2025-05-10 12:00
+WISH1 W125 "Jigsaw Puzzle" "Price:40TL, Brand:Disney"
+WISH2 W126 "Camping Trip" "Price:300TL" 2025-05-15 08:00 2025-05-15 18:00
+WISH1 W127 "Drawing Tablet" "Price:350TL, Brand:Wacom"
+WISH2 W128 "Visit the Planetarium" "Price:120TL" 2025-05-18 13:00 2025-05-18 16:00
+WISH1 W129 "Electric Skateboard" "Price:500TL, Brand:Boosted"
+WISH2 W130 "Day at the Water Park" "Price:200TL" 2025-05-20 10:00 2025-05-20 18:00
+WISH1 W131 "Gaming Headset" "Price:150TL, Brand:Logitech"
+WISH2 W132 "Rock Climbing" "Price:100TL" 2025-05-25 09:00 2025-05-25 12:00
+WISH1 W133 "Puzzle Cube" "Price:30TL, Brand:Rubik's"
+WISH2 W134 "Amusement Park Ride" "Price:70TL" 2025-05-30 10:00 2025-05-30 13:00
+WISH1 W135 "Indoor Trampoline" "Price:400TL, Brand:JumpKing"
+WISH2 W136 "Bowling Tournament" "Price:50TL" 2025-06-05 14:00 2025-06-05 17:00
+WISH1 W137 "Air Hockey Table" "Price:600TL, Brand:Playcraft"
+WISH2 W138 "Laser Tag" "Price:80TL" 2025-06-10 16:00 2025-06-10 18:00
+WISH1 W139 "Drone" "Price:700TL, Brand:Dji"
+WISH2 W140 "Kayaking" "Price:150TL" 2025-06-12 09:00 2025-06-12 12:00
+WISH1 W141 "Smart Speaker" "Price:250TL, Brand:Amazon Echo"
+WISH2 W142 "Go Karting" "Price:100TL" 2025-06-15 14:00 2025-06-15 16:00
+WISH1 W143 "Nintendo Switch" "Price:1300TL, Brand:Nintendo"
+WISH2 W144 "Mini Golf" "Price:60TL" 2025-06-20 10:00 2025-06-20 12:00
+WISH1 W145 "PlayStation 5" "Price:5000TL, Brand:Sony"
+WISH2 W146 "Skydiving" "Price:1000TL" 2025-06-25 08:00 2025-06-25 12:00
+WISH1 W147 "Magic Kit" "Price:150TL, Brand:Magic Makers"
+WISH2 W148 "Concert Ticket" "Price:200TL" 2025-07-01 19:00 2025-07-01 22:00
+WISH1 W149 "Magic Wand" "Price:80TL, Brand:Wizard Toys"
+WISH2 W150 "Safari Adventure" "Price:250TL" 2025-07-05 10:00 2025-07-05 16:00
