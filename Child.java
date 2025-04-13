@@ -1,56 +1,46 @@
-package kidtask;
+package kt2;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Child {
-    private int id;
     private String name;
     private int points;
-    private int level;
-    private double averageRating;
+    List<Task> tasks;
+    private List<Wish> wishes;
 
-    public Child(int id, String name) {
-        this.id = id;
+    public Child(String name) {
         this.name = name;
         this.points = 0;
-        this.level = 1;
-        this.averageRating = 0.0;
+        this.tasks = new ArrayList<>();
+        this.wishes = new ArrayList<>();
     }
 
-    public void addPoints(int points) {
+    public void addTask(Task task) {
+        tasks.add(task);
+    }
+
+    public void addWish(Wish wish) {
+        wishes.add(wish);
+    }
+
+    public void printTasks() {
+        for (Task task : tasks) {
+            System.out.println(task);
+        }
+    }
+
+    public void printWishes() {
+        for (Wish wish : wishes) {
+            System.out.println(wish);
+        }
+    }
+
+    public void updatePoints(int points) {
         this.points += points;
-        updateLevel();
     }
 
-    public void updateRating(double newRating) {
-        if (averageRating == 0.0) {
-            averageRating = newRating;
-        } else {
-            averageRating = (averageRating + newRating) / 2.0;
-        }
-        updateLevel();
+    public int getPoints() {
+        return points;
     }
-
-    private void updateLevel() {
-        if (averageRating >= 80) {
-            level = 4;
-        } else if (averageRating >= 60) {
-            level = 3;
-        } else if (averageRating >= 40) {
-            level = 2;
-        } else {
-            level = 1;
-        }
-    }
-
-    // Getters
-    public int getId() { return id; }
-    public String getName() { return name; }
-    public int getPoints() { return points; }
-    public int getLevel() { return level; }
-    public double getAverageRating() { return averageRating; }
-
-    @Override
-    public String toString() {
-        return String.format("Child ID: %d, Name: %s, Points: %d, Level: %d, Average Rating: %.2f",
-                id, name, points, level, averageRating);
-    }
-} 
+}

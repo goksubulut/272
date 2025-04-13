@@ -1,54 +1,42 @@
-package kidtask;
+package kt2;
 
-import java.time.LocalDateTime;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Task {
-    private int id;
+    String id;
     private String title;
     private String description;
-    private LocalDateTime deadline;
-    private LocalDateTime startTime;
-    private LocalDateTime endTime;
+    private String dueDate;
+    private String dueTime;
     private int points;
-    private boolean isCompleted;
-    private boolean isApproved;
-    private int rating;
-    private char assignedBy; // 'T' for Teacher, 'F' for Parent
+    private String status; // "Pending" or "Completed"
+    private int rating; // 1-5
 
-    public Task(int id, String title, String description, LocalDateTime deadline, int points, char assignedBy) {
+    // Constructor
+    public Task(String id, String title, String description, String dueDate, String dueTime, int points) {
         this.id = id;
         this.title = title;
         this.description = description;
-        this.deadline = deadline;
+        this.dueDate = dueDate;
+        this.dueTime = dueTime;
         this.points = points;
-        this.assignedBy = assignedBy;
-        this.isCompleted = false;
-        this.isApproved = false;
+        this.status = "Pending";
         this.rating = 0;
     }
 
-    // Getters and Setters
-    public int getId() { return id; }
-    public String getTitle() { return title; }
-    public String getDescription() { return description; }
-    public LocalDateTime getDeadline() { return deadline; }
-    public LocalDateTime getStartTime() { return startTime; }
-    public LocalDateTime getEndTime() { return endTime; }
-    public int getPoints() { return points; }
-    public boolean isCompleted() { return isCompleted; }
-    public boolean isApproved() { return isApproved; }
-    public int getRating() { return rating; }
-    public char getAssignedBy() { return assignedBy; }
+    public void markAsCompleted() {
+        this.status = "Completed";
+    }
 
-    public void setCompleted(boolean completed) { isCompleted = completed; }
-    public void setApproved(boolean approved) { isApproved = approved; }
-    public void setRating(int rating) { this.rating = rating; }
-    public void setStartTime(LocalDateTime startTime) { this.startTime = startTime; }
-    public void setEndTime(LocalDateTime endTime) { this.endTime = endTime; }
+    public void rate(int rating) {
+        if (rating >= 1 && rating <= 5) {
+            this.rating = rating;
+        }
+    }
 
     @Override
     public String toString() {
-        return String.format("Task ID: %d, Title: %s, Description: %s, Deadline: %s, Points: %d, Completed: %b, Approved: %b, Rating: %d",
-                id, title, description, deadline, points, isCompleted, isApproved, rating);
+        return "Task ID: " + id + ", Title: '" + title + "', Status: " + status + ", Points: " + points + ", Rating: " + rating;
     }
-} 
+}
